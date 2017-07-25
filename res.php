@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+<<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -24,7 +24,7 @@
   if( $resnr > 0 )
     print( $resnr . " への返信です。<hr />");
   else
-    print( "新規書き込み" );
+    print( "<h1>新規書き込み</h1>" );
 
   // 本当は、ログインしていないと書けない
 
